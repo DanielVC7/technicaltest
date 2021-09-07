@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "We enter to application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user login",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Log in to the application",
+        "description": "",
+        "id": "enter-the-application;log-in-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "We purchase the product",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "The purchase is successful",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Enter the application",
+    "description": "As a user\nMake a purchase of a product",
+    "id": "enter-the-application",
+    "keyword": "Feature",
+    "uri": "HappyPath.feature"
+  }
+]
